@@ -88,10 +88,10 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 5% 4% 70% 21%;
+    grid-template-rows: 6% 4.5% 75% 14.5%;
     grid-template-areas:
         "header header header header header"
         "nav nav nav nav nav"
-        ". main main main ."
+        "main main main main main"
         "footer footer footer footer footer";
 }

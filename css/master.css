@@ -61,6 +61,12 @@ header{
   grid-area: header;
   background-color: pink;
 }
+#logga{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.3%;
+}
 nav{
   grid-area: nav;
   background-color: orange;
@@ -75,11 +81,32 @@ main{
 
 }
 #glassbild{
-  position: relative;
-  left: 10px;
-  top: 10px;
+  position: absolute;
 
 }
+#glassbild2 {
+  position: absolute;
+  left: 820px;
+  
+}
+#glassbild3 {
+  position: absolute;
+  left: 1080px;
+  
+}
+#nyhet1rubrik{
+  font-size: 80px;
+  font-family:'Tilt Warp', cursive;
+  position: relative;
+  text-align: center;
+  top: 320px;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
 
 
 .nyhet2{
