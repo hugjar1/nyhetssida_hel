@@ -54,58 +54,44 @@ table {
 
 
 
+
+
+
+
 body{
-  height: 300vh;
+    height: 100vh;
 }
+
 header{
-  grid-area: header;
-  background-color: pink;
+    background-color: aqua;
+    grid-area: header;
 }
+
 nav{
-  grid-area: nav;
-  background-color: orange;
+    background-color: blanchedalmond;
+    grid-area: nav;
 }
 
 
 main{
-  border-width: medium;
-
-  border-style: solid;
-  grid-area: main;
-
-}
-#glassbild{
-  position: relative;
-  left: 10px;
-  top: 10px;
-
+    background-color: burlywood;
+    grid-area: main;
 }
 
-
-.nyhet2{
-  grid-area: två;
-  background-color: yellow;
-}
-.nyhet3{
-  grid-area: tre;
-  background-color: green;
-}
 footer{
-  grid-area: footer;
-  background-color: purple;
+    background-color: crimson;
+    grid-area: footer;
 }
 
-#wrapper{
-  height: 100%;
-  width: 100%;
-  display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 2% 1.5% 25% 25% 25% 21.5%;
-grid-template-areas:
-"header header header header header"
-"nav nav nav nav nav"
-". main main main ."
-". två två två ."
-". tre tre tre ."
-"footer footer footer footer footer";
+#wrapper2 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 5% 4% 70% 21%;
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+        ". main main main ."
+        "footer footer footer footer footer";
 }
