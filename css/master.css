@@ -66,8 +66,16 @@ nav{
   background-color: orange;
 }
 main{
+  border-width: medium;
+
+  border-style: solid;
   grid-area: main;
-  background-color: black;
+
+}
+#Pras{
+  position: relative;
+  left: 5%;
+  top: 5%;
 }
 .nyhet2{
   grid-area: två;
