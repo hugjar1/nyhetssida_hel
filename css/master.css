@@ -69,7 +69,7 @@ header{
 }
 nav{
   grid-area: nav;
-  background-color: orange;
+  background-color: blue;
 }
 
 
@@ -80,20 +80,11 @@ main{
   grid-area: main;
 
 }
-#glassbild{
-  position: absolute;
 
-}
-#glassbild2 {
+#glassbar{
   position: absolute;
-  left: 820px;
-  
 }
-#glassbild3 {
-  position: absolute;
-  left: 1080px;
-  
-}
+
 #nyhet1rubrik{
   font-size: 80px;
   font-family:'Tilt Warp', cursive;
@@ -106,8 +97,19 @@ main{
 a{
   text-decoration: none;
 }
+#länkruta{
+  width: 100%;
+  height: 100%;
+}
 
-
+#glasstext{
+  font-size: 30px;
+  position: relative;
+  top: 400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
 
 .nyhet2{
   grid-area: två;
