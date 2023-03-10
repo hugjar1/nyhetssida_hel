@@ -79,7 +79,13 @@ main{
 }
 .nyhet2{
   grid-area: två;
-  background-color: yellow;
+	border-width: medium;
+  border-style: solid;
+}
+#Capy{
+	position: relative;
+	left: 5%;
+	top: 5%;
 }
 .nyhet3{
   grid-area: tre;
