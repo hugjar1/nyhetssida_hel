@@ -82,10 +82,23 @@ main{
 	border-width: medium;
   border-style: solid;
 }
-#Capy{
-	position: relative;
-	left: 5%;
-	top: 5%;
+#capy{
+	position: absolute;
+	left: 62%;
+	top: 108%;
+}
+#capytitle{
+	position: absolute;
+	font-size: 58px;
+	top: 93%;
+	right: 21%;
+}
+#capypretext{
+	position: absolute;
+	font-size: 37px;
+	width: 500px;
+	top: 108%;
+	right: 47%;
 }
 .nyhet3{
   grid-area: tre;
