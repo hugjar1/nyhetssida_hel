@@ -75,10 +75,8 @@ nav{
 
 main{
   border-width: medium;
-
   border-style: solid;
   grid-area: main;
-
 }
 #glassbild{
   position: absolute;
@@ -87,12 +85,12 @@ main{
 #glassbild2 {
   position: absolute;
   left: 820px;
-  
+
 }
 #glassbild3 {
   position: absolute;
   left: 1080px;
-  
+
 }
 #nyhet1rubrik{
   font-size: 80px;
