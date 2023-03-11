@@ -155,6 +155,53 @@ nav {
 	background-color: orange;
 }
 
+.objects {
+	display: none;
+}
+
+.object {
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main {
 	border-width: medium;
 
