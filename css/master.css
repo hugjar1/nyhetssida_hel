@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -18,25 +86,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -54,72 +141,84 @@ table {
 
 
 
-body{
-  height: 300vh;
+body {
+	height: 300vh;
 }
-header{
-  grid-area: header;
-  background-color: pink;
-}
-nav{
-  grid-area: nav;
-  background-color: orange;
-}
-main{
-  border-width: medium;
 
-  border-style: solid;
-  grid-area: main;
+header {
+	grid-area: header;
+	background-color: pink;
+}
 
+nav {
+	grid-area: nav;
+	background-color: orange;
 }
-#Pras{
-  position: relative;
-  left: 5%;
-  top: 5%;
-}
-.nyhet2{
-  grid-area: två;
+
+main {
 	border-width: medium;
-  border-style: solid;
+
+	border-style: solid;
+	grid-area: main;
+
 }
-#capy{
+
+#Pras {
+	position: relative;
+	left: 5%;
+	top: 5%;
+}
+
+.nyhet2, .nyhet2:visited {
+	grid-area: två;
+	border-width: medium;
+	border-style: solid;
+	text-decoration: none;
+	color: black;
+}
+
+#capy {
 	position: absolute;
 	left: 62%;
 	top: 108%;
 }
-#capytitle{
+
+#capytitle {
 	position: absolute;
 	font-size: 58px;
 	top: 93%;
 	right: 21%;
 }
-#capypretext{
+
+#capypretext {
 	position: absolute;
 	font-size: 37px;
 	width: 500px;
 	top: 108%;
 	right: 47%;
 }
-.nyhet3{
-  grid-area: tre;
-  background-color: green;
-}
-footer{
-  grid-area: footer;
-  background-color: purple;
+
+.nyhet3 {
+	grid-area: tre;
+	background-color: green;
 }
 
-#wrapper{
-  height: 100%;
-  width: 100%;
-  display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
-grid-template-rows: 2% 1.5% 25% 25% 25% 21.5%;
-grid-template-areas:
-"header header header header header"
-"nav nav nav nav nav"
-". main main main ."
-". två två två ."
-". tre tre tre ."
-"footer footer footer footer footer";
+footer {
+	grid-area: footer;
+	background-color: purple;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 2% 1.5% 25% 25% 25% 21.5%;
+	grid-template-areas:
+		"header header header header header"
+		"nav nav nav nav nav"
+		". main main main ."
+		". två två två ."
+		". tre tre tre ."
+		"footer footer footer footer footer";
 }
