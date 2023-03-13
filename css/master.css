@@ -150,6 +150,12 @@ footer{
     top: 5%;
     color: black;
 }
+#logga2{
+      display: block;
+      margin-left: 80%;
+      margin-right: auto;
+      margin-top: 2%;
+}
 #instagram {
   background: url("../img/css_sprites.png") -10px -10px;
   width: 70px;
