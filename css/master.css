@@ -134,12 +134,28 @@ footer{
   
 
 }
+
+#inforuta{
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  background-color: antiquewhite;
+}
+#footerrubrik{
+  font-size: 50px;
+    font-family: 'Tilt Warp', cursive;
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    top: 5%;
+    color: black;
+}
 #instagram {
   background: url("../img/css_sprites.png") -10px -10px;
   width: 70px;
   height: 70px;
 position: relative;
-top: 90%;
+top: 85%;
  
 }
 
@@ -148,7 +164,7 @@ top: 90%;
   width: 70px;
     height: 70px;
     position: relative;
-      top: 90%;
+      top: 85%;
 }
 
 #wrapper{
