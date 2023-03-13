@@ -72,10 +72,29 @@ main{
   grid-area: main;
 
 }
-#Pras{
+
+#rubriknyhet3{
+margin-top: 4%;
+font-size: 60px;
+display: flex;
+justify-content: space-around;
+position: relative;
+}
+
+#textnyhet3{
+margin-top: 3%;
+font-size: 30px;
+position: absolute;
+display: flex;
+text-align: left;
+left: 50%;
+}
+
+#Dogecoin{
   position: relative;
-  left: 5%;
-  top: 5%;
+	top: 25%;
+	left: 5%;
+	display: flex;
 }
 .nyhet2{
   grid-area: två;
@@ -83,7 +102,7 @@ main{
 }
 .nyhet3{
   grid-area: tre;
-  background-color: green;
+
 }
 footer{
   grid-area: footer;
