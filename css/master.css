@@ -88,31 +88,7 @@ main{
 }
 
 
-#rubriknyhet3{
-margin-top: 4%;
-font-size: 60px;
-display: flex;
-justify-content: space-around;
-position: relative;
-}
 
-#textnyhet3{
-margin-top: 3%;
-font-size: 30px;
-position: absolute;
-display: flex;
-text-align: left;
-left: 50%;
-}
-
-#Dogecoin{
-  position: relative;
-	top: 25%;
-	left: 5%;
-	display: flex;
-
-
-}
 #nyhet1rubrik{
   font-size: 80px;
   font-family:'Tilt Warp', cursive;
@@ -146,6 +122,36 @@ a{
 }
 .nyhet3{
   grid-area: tre;
+border-width: medium;
+  border-bottom: 3px;
+  border-top: 0px;
+  border-left: 3px;
+  border-right: 3px;
+  border-style: solid;
+}
+#rubriknyhet3 {
+  margin-top: 4%;
+  font-size: 60px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#textnyhet3 {
+  margin-top: 3%;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  text-align: left;
+  left: 50%;
+}
+
+#Dogecoin {
+  position: relative;
+  top: 25%;
+  left: 5%;
+  display: flex;
+
 
 }
 footer{
