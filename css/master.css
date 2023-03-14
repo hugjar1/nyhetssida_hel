@@ -124,7 +124,6 @@ a{
 
 .nyhet2{
   grid-area: två;
-  background-color: yellow;
 }
 .nyhet2,
 .nyhet2:visited {
@@ -143,15 +142,16 @@ a{
 
 #capy {
   position: absolute;
-  left: 62%;
+  left: 58%;
   top: 108%;
 }
 
 #capytitle {
-  position: absolute;
-  font-size: 58px;
-  top: 93%;
-  right: 21%;
+  position: relative;
+  font-size: 53px;
+  top: 7%;
+  display: flex;
+  justify-content: space-around;
 }
 
 #capypretext {
@@ -171,7 +171,7 @@ border-width: medium;
   border-style: solid;
 }
 #rubriknyhet3 {
-  margin-top: 4%;
+  top: 7%;
   font-size: 60px;
   display: flex;
   justify-content: space-around;
@@ -179,7 +179,7 @@ border-width: medium;
 }
 
 #textnyhet3 {
-  margin-top: 3%;
+  margin-top: 6.5%;
   font-size: 30px;
   position: absolute;
   display: flex;
@@ -189,7 +189,7 @@ border-width: medium;
 
 #Dogecoin {
   position: relative;
-  top: 25%;
+  top: 20%;
   left: 5%;
   display: flex;
 
