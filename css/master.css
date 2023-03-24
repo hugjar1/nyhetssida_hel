@@ -150,6 +150,17 @@ footer{
     top: 5%;
     color: black;
 }
+#footertext{
+position: absolute;
+font-size: 20px;
+text-align: left;
+  left: 5%;
+  top: 25%;
+  margin-right: 5%;
+  color: black;
+font-family: 'Tilt Warp', cursive;
+
+}
 #logga2{
       display: block;
       margin-left: 80%;
