@@ -19,10 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 }
@@ -67,15 +64,80 @@ header{
   margin-right: auto;
   margin-top: 0.3%;
 }
+
+
 nav{
   grid-area: nav;
   background-color: blue;
   color: black;
+  display: flex;
+  gap: 2%;
+  text-align: center;
 }
-.navbar-brand{
-  color: black;
-}
+.navtext{
+  
+  margin-top:7%;
+  
 
+  
+}
+#hemnav{
+  margin-left: 2%;
+  height: 50%;
+  width: 5%;
+  background-color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+#hemnav:hover{
+  background-color: rgb(208, 214, 219);
+}
+#nyhetnav{
+  height: 50%;
+  width: 5%;
+  background-color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+#nyhetnav:hover{
+  background-color: rgb(208, 214, 219);
+}
+#omnav{
+  height: 50%;
+  width: 5%;
+  background-color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+#omnav:hover{
+  background-color: rgb(208, 214, 219);
+}
+#kontaktanav{
+  height: 50%;
+  width: 5%;
+  background-color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+#kontaktanav:hover{
+  background-color: rgb(208, 214, 219);
+}
+#loggain{
+  height: 50%;
+  width: 5%;
+  margin-left: 63.25%;
+  background-color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+#loggain:hover{
+  background-color: rgb(208, 214, 219);
+}
 
 
 main{
@@ -90,7 +152,7 @@ main{
 
 #glassbar{
   position: absolute;
-  
+
 }
 
 
